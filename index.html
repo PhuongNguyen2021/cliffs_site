@@ -21,8 +21,8 @@
   </head>
   <body id="home">
     <div id="container">
-      <header>
-        <div class="main-header">
+      <header> 
+        <div class="main-header sticky-top">
           <nav class="main-menu navbar navbar-expand-lg navbar-light w-100">
             <div class="d-flex justify-content-between w-100 align-items-center">
               <div class="logo">
@@ -49,12 +49,18 @@
     </div>
 
     <main class="main-col-content">
+
+      <span class="badge badge-info p-2 mb-2">Best 2020 Travel Destination</span>
+
+      <span class="badge badge-success p-2 mb-2">USA Today's Top Travel Bucket List</span>
+
+      <span class="badge badge-secondary p-2">Voted #1 Coastal Site</span>
       
-      <h1>Introducing California's Greatest Cliffs</h1>
+      <h1 class="mt-4">Introducing California's Greatest Cliffs</h1>
       <div class="row">
-          <div class="col-sm-12 col-md-5 m-3 p-3 border border-secondary">
-            <h2>What is so unique about California cliffs?</h2>
-            <p>
+        <div class="col-sm-12 col-md-5 m-3 p-3 border border-secondary">
+          <h2>What is so unique about California cliffs?</h2>
+          <p>
               California cliffs are one of a kind in the United States where
               no cliffs are as manificent and beautiful as them. And
               California is the only state that have cliffs that fronts all
@@ -63,20 +69,40 @@
               East Cliff and South Cliff. All offer fantastic overlooking
               views, recreational areas, camping sites, wildlife watch spots
               and overnight cabins.
-            </p>
-          </div>
+          </p>
+        </div>
         
  
-      <div class="col-sm-12 col-md-5 m-3 p-3 border border-secondary">
-        <h2>Where are these cliffs?</h2>
-        <p>
-          Located within a 100 mile radius from Irvine, California, they
-          can be reached by roads easily. The closest cliff to Irvine is
-          West Cliff, which is the most popular and most visited.
-        </p>
+        <div class="col-sm-12 col-md-5 m-3 p-3 border border-secondary">
+          <h2>Where are these cliffs?</h2>
+          <p>
+              Located within a 100 mile radius from Irvine, California, they
+              can be reached by roads easily. The closest cliff to Irvine is
+              West Cliff, which is the most popular and most visited.
+          </p>
+        </div>
       </div>
+      
+      <form class="mt-4">
+        <h2>Sign up to receive the Great Cliffs newsletter!</h2>
 
-    </div>
+        <div class="form-group">
+          <label for="exampleName1">Name</label>
+          <input type="name" class="form-control" id="exampleName1" aria-describedby="nameHelp" placeholder="Enter name">
+          <small id="nameHelp" class="form-text text-muted"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form> 
+
+
+
     </main>
 
     <section>

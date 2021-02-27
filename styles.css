@@ -14,6 +14,32 @@ header {
 
 }
 
+#cliffs header {
+    background: no-repeat lightgrey url(images/forest_cliff.jpg);
+    /* width: 100%; */
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 400px;
+}
+
+#activities header {
+    background: no-repeat lightgrey url(images/runfly.jpg);
+    /* width: 100%; */
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 400px;
+}
+
+#contact header {
+    background: no-repeat lightgrey url(images/cliff_rock.jpg);
+    /* width: 100%; */
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 400px;
+}
 
 .main-header {
     background-color:rgb(255, 255, 255, 0.8) ;
@@ -217,3 +243,45 @@ span {
         grid-template-columns: repeat(2, 1fr);
     }
 } */
+
+/* cliffs gallery */
+#cliffs-gallery {
+    margin: 40px 10px 10px 100px;
+}
+#cliffs main {
+    height: 1000px;
+}
+.image {
+    box-sizing:border-box;
+    float: left;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.image:nth-child(even) {
+    padding-top: 10px;
+}
+.image:nth-child(odd) {
+  padding-top: 10px;
+}
+.image img {
+    width: 85%;
+}
+.image span {
+    display: inline-block;
+    width: 85%;
+    height: 40px;
+    line-height: 40px;
+    background-color: brown;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+}
+#contact-form {
+    border: 2px solid #9ed034;
+    padding: 3em;
+    margin: 1em;
+}
+#form-legend{
+    color: blue,
+
+}

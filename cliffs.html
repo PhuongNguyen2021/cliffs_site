@@ -1,107 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
   <head>
-    <title>Great Cliffs of California</title>
-
-    <!-- Meta Tags -->
-    <meta charset="UTF-8" />
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css" />
-    
-  </head>
+      <title>Cliffs</title>
   
-  <body id="home">
+      <!-- Meta Tags -->
+      <meta charset="UTF-8" />
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+      
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+      <!-- Font Awesome -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      >
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body id="cliffs">
+    <!--Container to wrap everything-->
+    
     <div id="container">
       <header> 
         <div class="main-header sticky-top">
           <nav class="main-menu navbar navbar-expand-lg navbar-light w-100">
             <div class="d-flex justify-content-between w-100 align-items-center">
+              
               <div class="logo">
                 <img src="images/logo.png" alt="Great Cliffs Logo">
               </div>
-              <!-- Hamburger Menu-->
+                <!-- Hamburger Menu-->
               <button class="navbar-toggler m-4" type="button" data-toggle="collapse" data-target = "#navbarContent" aria-controls = "navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-            </div>
             
+            </div>
+              
             <div class="collapse navbar-collapse bg-white" id="navbarContent">
               <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="cliffs.html">Cliffs</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="cliffs.html">Cliffs</a></li>
                 <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
               </ul> 
             </div>
-
           </nav>
         </div>
       </header>
     </div>
+    
+    <main>
+      <h1>California's Greatest Cliffs</h1>
+      <p>The greatest cliffs are these four cliffs located in southern California. Each of these cliffs have their own uniqueness and beauty: West Cliff, North Cliff, East Cliff and South Cliff are the pride of California. Each cliff has many amenities to offer visitors such as recreational areas, camping sites, wildlife watch spots and overnight cabins.</p>
+      <p>No matter which direction you head from Irvine, California, the sites are easily reached within a 100 mile radius. West Cliff is the most popular among Westcliff University campus students because of its close proximity.</p>
 
-    <main class="main-col-content">
+      <section>
+        <div id="cliffs-gallery">
+          <div class="image">
+            <span>West Cliff</span>
+            <img src="images/cliff-west-sea.jpg" alt="cliff-west-sea" width="300">
+          </div>
 
-      <span class="badge badge-info p-2 mb-2">Best 2020 Travel Destination</span>
+          <div class="image">
+            <span>North Cliff</span>
+            <img src="images/cliff-north-mountain.jpg" alt="cliff-north-mountain" width="300">
+          </div>
 
-      <span class="badge badge-success p-2 mb-2">USA Today's Top Travel Bucket List</span>
+          <div class="image">
+            <span>East Cliff</span>
+            <img src="images/cliff-east-river.jpg" alt="cliff-east-river" width="300">
+          </div>
 
-      <span class="badge badge-secondary p-2">Voted #1 Coastal Site</span>
-      
-      <h1 class="mt-4">Introducing California's Greatest Cliffs</h1>
-      <div class="row">
-        <div class="col-sm-12 col-md-5 m-3 p-3 border border-secondary">
-          <h2>What is so unique about California cliffs?</h2>
-          <p>
-              California cliffs are one of a kind in the United States where
-              no cliffs are as manificent and beautiful as them. And
-              California is the only state that have cliffs that fronts all
-              possible environments: sea, river, mountains and canyons. There
-              are four such individual unique cliffs: West Cliff, North Cliff,
-              East Cliff and South Cliff. All offer fantastic overlooking
-              views, recreational areas, camping sites, wildlife watch spots
-              and overnight cabins.
-          </p>
+          <div class="image">
+            <span>South Cliff</span>
+            <img src="images/cliff-south-canyon.jpg" alt="cliff-south-canyon" width="300">
+          </div>
         </div>
-        
- 
-        <div class="col-sm-12 col-md-5 m-3 p-3 border border-secondary">
-          <h2>Where are these cliffs?</h2>
-          <p>
-              Located within a 100 mile radius from Irvine, California, they
-              can be reached by roads easily. The closest cliff to Irvine is
-              West Cliff, which is the most popular and most visited.
-          </p>
-        </div>
-      </div>
-      
-      <form class="mt-4">
-        <h2>Sign up to receive the Great Cliffs newsletter!</h2>
-
-        <div class="form-group">
-          <label for="exampleName1">Name</label>
-          <input type="name" class="form-control" id="exampleName1" aria-describedby="nameHelp" placeholder="Enter name">
-          <small id="nameHelp" class="form-text text-muted"></small>
-        </div>
-
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form> 
+      </section>
     </main>
-
+              
     <section>
       <ul id="partners" class="row">
 
@@ -143,6 +123,7 @@
      </ul>
     </section>
 
+      
     <footer>
 
       <div id="nondisclaimer">
@@ -164,7 +145,7 @@
         </p>
       </div>
     </footer>
-    
+    </div>
 
     <!-- Bootstrap jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -174,6 +155,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+              
   </body>
 </html>
